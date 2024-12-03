@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>figma10</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header1 -->
+    <div class="header1container responsiv">
+        <div class="headerlogo responsiv">
+            <img src="./img/plant.png" width="36px" height="36px">
+        </div>
+        <!-- headeryozuv -->
+        <div class="headeryozuvlar responsiv">
+            <div class="yozuvlarr responsiv">
+                <a href="./Main Page.html">Main Page</a>
+                <a href="./Categories.html">Categories</a>
+                <a href="./All products.html">All products</a>
+                <a href="./All sales.html">All sales</a>
+            </div>
+            <div>
+                <img src="./img/icon (1).png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+    <!-- header2 -->
+    <div class="header_2-4 responsiv">
+        <!-- rasm -->
+        <div>
+            <img src="./img/gallery.png" width="780px" height="572px">
+        </div>
+
+
+
+
+        <!-- yozuv -->
+        <div>
+            <h2>Secateurs</h2>
+            <div class="pul2 responsiv">
+                <h2>$199</h2>
+                <p>$240</p>
+                <div class="foiz2">
+                    <div class="foizzz2">
+                        <p>-17%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="kopaytirish responsiv">
+                <div class="counter">
+                    <button onclick="decrement()">-</button>
+                    <span id="counterValue">1</span>
+                    <button onclick="increment()">+</button>
+                </div>
+
+                <script>
+                    let counter = 1;
+
+                    function increment() {
+                        counter++;
+                        document.getElementById("counterValue").innerText = counter;
+                    }
+
+                    function decrement() {
+                        if (counter > 1) {
+                            counter--;
+                            document.getElementById("counterValue").innerText = counter;
+                        }
+                    }
+
+                </script>
+                <button class="qaychibutton1">Add to cart</button>
+            </div>
+            <div>
+                <h2 class="qaychitext1">Description</h2>
+                <p class="qaychitextt">This high quality everyday secateur features a fully hardened and tempered, high-carbon steel blade
+                    for lasting sharpness. For comfort, the robust but lightweight alloy handles are covered in a soft
+                    grip, in a bright terracotta colour for maximum visibility in the garden. It won’t be easy to leave
+                    this pruner behind at the end of the day! Rubber cushion stops prevent jarring over repeated use,
+                    reducing hand strain for the user.
+                    This secateur cuts up to 2.5 cm diameter. Carrying RHS endorsement, possibly the highest accolade
+                    in gardening, for peace of mind this pruner comes with a ten-year guarantee against manufacturing
+                    defects.
+                    Supplied with replacement blade and spare spring. You may also be interested in our pack of two
+                    replacement springs.</p>
+                    <p>Read more</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- end -->
+    <div class="header6">
+        <div>
+            <h2 class="header6texct">Contact</h2>
+        </div>
+        <div class="bolacontainer responsiv">
+            <div>
+                <div class="cardorqa">
+                    <div class="cardtextt">
+                        <h5 class="photee">Phone</h5>
+                        <h2 class="nomerr">+7 (499) 350-66-04</h2>
+                    </div>
+                    <div class="cardorqa">
+                        <div class="cardtextt">
+                            <h5 class="photee">Address</h5>
+                            <h2 class="nomerr">Dubininskaya Ulitsa, 96, Moscow, Russia, 115093</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card_2">
+                <div class="cardorqa">
+                    <div class="cardtextt">
+                        <h5 class="photee">Socials</h5>
+                        <div>
+                            <img src="./img/ic-instagram.png" alt="">
+                            <img src="./img/ic-whatsapp.png" alt="">
+                        </div>
+                    </div>
+                    <div class="cardorqa">
+                        <div class="cardtextt">
+                            <h5 class="photeee">Working Hours</h5>
+                            <h2 class="nomerr">24 hours a day</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.8956740763406!2d64.42846967650844!3d39.8093318923829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5009003f1c477b%3A0x920d498788a13e58!2sBuxoro%20psixologiya%20va%20xorijiy%20tillar%20instituti!5e0!3m2!1sru!2s!4v1733133442350!5m2!1sru!2s"
+                    width="1640" height="450" style="border:0; margin-top: 200px; ;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
